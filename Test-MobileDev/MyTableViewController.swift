@@ -275,7 +275,7 @@ class MyTableViewController: UITableViewController {
         cell.textLabel?.text = "Section \(indexPath.section) - Row \(indexPath.row)"
 //        print(indexPath.section)
 //        print(indexPath.row)
-        cell.textLabel?.text = countries[indexPath.row]
+        cell.textLabel?.text = countries[indexPath.row].replacingOccurrences(of: "_", with: " ")
 
         return cell
     }
