@@ -8,6 +8,8 @@
 import UIKit
 
 class MyTableViewController: UITableViewController {
+    
+    var students = ["Samy", "Omar", "Neeraj", "Mouhcine"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -32,12 +34,12 @@ class MyTableViewController: UITableViewController {
 
     override func numberOfSections(in tableView: UITableView) -> Int {
         // #warning Incomplete implementation, return the number of sections
-        return 3
+        return 1
     }
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 5
+        return students.count
     }
 
     
@@ -49,6 +51,7 @@ class MyTableViewController: UITableViewController {
         cell.textLabel?.text = "Section \(indexPath.section) - Row \(indexPath.row)"
 //        print(indexPath.section)
 //        print(indexPath.row)
+        cell.textLabel?.text = students[indexPath.row]
 
         return cell
     }
