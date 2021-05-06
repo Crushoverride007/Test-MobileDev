@@ -17,6 +17,9 @@
 		D64989252642E89900D9F5C4 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64989232642E89900D9F5C4 /* ViewController2.xib */; };
 		D6BBFB802644120200647522 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6BBFB822644120200647522 /* Localizable.strings */; };
 		D6BBFB892644240B00647522 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFB882644240B00647522 /* MyTableViewController.swift */; };
+		D6BBFD4F264435B000647522 /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFD4E264435B000647522 /* DetailsViewController.swift */; };
+		D6BBFD52264438BA00647522 /* MyCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFD51264438BA00647522 /* MyCollectionViewController.swift */; };
+		D6BBFD5526443BEF00647522 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFD5426443BEF00647522 /* MyCollectionViewCell.swift */; };
 		D6F7845B2643FC5C00607D4D /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7845A2643FC5C00607D4D /* MyCustomView.swift */; };
 		D6F784622643FCBD00607D4D /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F784612643FCBD00607D4D /* MyCustomView.xib */; };
 		D6F784652643FEE500607D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F784642643FEE500607D4D /* LaunchScreen.storyboard */; };
@@ -38,6 +41,9 @@
 		D6BBFB852644122A00647522 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		D6BBFB862644122A00647522 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		D6BBFB882644240B00647522 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
+		D6BBFD4E264435B000647522 /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		D6BBFD51264438BA00647522 /* MyCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewController.swift; sourceTree = "<group>"; };
+		D6BBFD5426443BEF00647522 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 		D6F7845A2643FC5C00607D4D /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		D6F784612643FCBD00607D4D /* MyCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 		D6F784642643FEE500607D4D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -57,6 +63,8 @@
 		D64989012642A2BA00D9F5C4 = {
 			isa = PBXGroup;
 			children = (
+				D6BBFD5426443BEF00647522 /* MyCollectionViewCell.swift */,
+				D6BBFD51264438BA00647522 /* MyCollectionViewController.swift */,
 				D649890C2642A2BA00D9F5C4 /* Test-MobileDev */,
 				D649890B2642A2BA00D9F5C4 /* Products */,
 			);
@@ -77,6 +85,7 @@
 				D649890F2642A2BA00D9F5C4 /* SceneDelegate.swift */,
 				D64989112642A2BA00D9F5C4 /* ViewController.swift */,
 				D6BBFB882644240B00647522 /* MyTableViewController.swift */,
+				D6BBFD4E264435B000647522 /* DetailsViewController.swift */,
 				D6BBFB822644120200647522 /* Localizable.strings */,
 				D64989222642E89800D9F5C4 /* ViewController2.swift */,
 				D6F784642643FEE500607D4D /* LaunchScreen.storyboard */,
@@ -166,10 +175,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6BBFD52264438BA00647522 /* MyCollectionViewController.swift in Sources */,
 				D64989122642A2BA00D9F5C4 /* ViewController.swift in Sources */,
+				D6BBFD5526443BEF00647522 /* MyCollectionViewCell.swift in Sources */,
 				D6BBFB892644240B00647522 /* MyTableViewController.swift in Sources */,
 				D64989242642E89900D9F5C4 /* ViewController2.swift in Sources */,
 				D6F7845B2643FC5C00607D4D /* MyCustomView.swift in Sources */,
+				D6BBFD4F264435B000647522 /* DetailsViewController.swift in Sources */,
 				D649890E2642A2BA00D9F5C4 /* AppDelegate.swift in Sources */,
 				D64989102642A2BA00D9F5C4 /* SceneDelegate.swift in Sources */,
 			);
