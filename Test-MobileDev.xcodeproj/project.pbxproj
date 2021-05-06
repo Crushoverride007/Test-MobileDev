@@ -15,6 +15,8 @@
 		D649891A2642A2BC00D9F5C4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D64989182642A2BC00D9F5C4 /* LaunchScreen.storyboard */; };
 		D64989242642E89900D9F5C4 /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D64989222642E89800D9F5C4 /* ViewController2.swift */; };
 		D64989252642E89900D9F5C4 /* ViewController2.xib in Resources */ = {isa = PBXBuildFile; fileRef = D64989232642E89900D9F5C4 /* ViewController2.xib */; };
+		D6BBFB802644120200647522 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = D6BBFB822644120200647522 /* Localizable.strings */; };
+		D6BBFB892644240B00647522 /* MyTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BBFB882644240B00647522 /* MyTableViewController.swift */; };
 		D6F7845B2643FC5C00607D4D /* MyCustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F7845A2643FC5C00607D4D /* MyCustomView.swift */; };
 		D6F784622643FCBD00607D4D /* MyCustomView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6F784612643FCBD00607D4D /* MyCustomView.xib */; };
 		D6F784652643FEE500607D4D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6F784642643FEE500607D4D /* LaunchScreen.storyboard */; };
@@ -31,6 +33,11 @@
 		D649891B2642A2BC00D9F5C4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D64989222642E89800D9F5C4 /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D64989232642E89900D9F5C4 /* ViewController2.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ViewController2.xib; sourceTree = "<group>"; };
+		D6BBFB812644120200647522 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D6BBFB842644122A00647522 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Main.strings; sourceTree = "<group>"; };
+		D6BBFB852644122A00647522 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		D6BBFB862644122A00647522 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		D6BBFB882644240B00647522 /* MyTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewController.swift; sourceTree = "<group>"; };
 		D6F7845A2643FC5C00607D4D /* MyCustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCustomView.swift; sourceTree = "<group>"; };
 		D6F784612643FCBD00607D4D /* MyCustomView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCustomView.xib; sourceTree = "<group>"; };
 		D6F784642643FEE500607D4D /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -69,6 +76,8 @@
 				D649890D2642A2BA00D9F5C4 /* AppDelegate.swift */,
 				D649890F2642A2BA00D9F5C4 /* SceneDelegate.swift */,
 				D64989112642A2BA00D9F5C4 /* ViewController.swift */,
+				D6BBFB882644240B00647522 /* MyTableViewController.swift */,
+				D6BBFB822644120200647522 /* Localizable.strings */,
 				D64989222642E89800D9F5C4 /* ViewController2.swift */,
 				D6F784642643FEE500607D4D /* LaunchScreen.storyboard */,
 				D64989232642E89900D9F5C4 /* ViewController2.xib */,
@@ -123,6 +132,7 @@
 			knownRegions = (
 				en,
 				Base,
+				fr,
 			);
 			mainGroup = D64989012642A2BA00D9F5C4;
 			productRefGroup = D649890B2642A2BA00D9F5C4 /* Products */;
@@ -142,6 +152,7 @@
 				D649891A2642A2BC00D9F5C4 /* LaunchScreen.storyboard in Resources */,
 				D64989252642E89900D9F5C4 /* ViewController2.xib in Resources */,
 				D6F784622643FCBD00607D4D /* MyCustomView.xib in Resources */,
+				D6BBFB802644120200647522 /* Localizable.strings in Resources */,
 				D6F784652643FEE500607D4D /* LaunchScreen.storyboard in Resources */,
 				D64989172642A2BC00D9F5C4 /* Assets.xcassets in Resources */,
 				D64989152642A2BA00D9F5C4 /* Main.storyboard in Resources */,
@@ -156,6 +167,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D64989122642A2BA00D9F5C4 /* ViewController.swift in Sources */,
+				D6BBFB892644240B00647522 /* MyTableViewController.swift in Sources */,
 				D64989242642E89900D9F5C4 /* ViewController2.swift in Sources */,
 				D6F7845B2643FC5C00607D4D /* MyCustomView.swift in Sources */,
 				D649890E2642A2BA00D9F5C4 /* AppDelegate.swift in Sources */,
@@ -170,6 +182,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D64989142642A2BA00D9F5C4 /* Base */,
+				D6BBFB842644122A00647522 /* fr */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -178,8 +191,18 @@
 			isa = PBXVariantGroup;
 			children = (
 				D64989192642A2BC00D9F5C4 /* Base */,
+				D6BBFB852644122A00647522 /* fr */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		D6BBFB822644120200647522 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D6BBFB812644120200647522 /* en */,
+				D6BBFB862644122A00647522 /* fr */,
+			);
+			name = Localizable.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -189,6 +212,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -250,6 +274,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

@@ -1,0 +1,9 @@
+
+/* Class = "UIButton"; normalTitle = "CANCEl"; ObjectID = "12k-Wt-tWC"; */
+"12k-Wt-tWC.normalTitle" = "Effacer";
+
+/* Class = "UIButton"; normalTitle = "SEND"; ObjectID = "OQf-EE-pWN"; */
+"OQf-EE-pWN.normalTitle" = "Envoyer";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Q7P-d6-bTS"; */
+"Q7P-d6-bTS.text" = "Label";

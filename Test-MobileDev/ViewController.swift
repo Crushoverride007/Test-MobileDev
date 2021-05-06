@@ -10,14 +10,24 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet weak var sendButton: UIButton!
     @IBOutlet weak var inputField: UITextField!
+    @IBOutlet weak var helloLabel: UILabel!
     override func viewDidLoad() {
         
     super.viewDidLoad()
+        print("viewDidLoad 1")
+        
+        helloLabel.text = NSLocalizedString("HELLO", comment: "Welcome word")
+        
+        let number: Int = 4
+        number.squared()
+        print("the squared number of '\(number)' is '\(number.squared())'")
+        
         // Do any additional setup after loading the view.
         //test()
         
         sendButton.addTarget(self, action: #selector(SendClicked(_:)), for: UIControl.Event.touchUpInside)
     }
+    
     @IBAction func ClearClicked(_ sender: Any) {
     print("ClearClicked")
         inputField.text = ""
@@ -27,6 +37,8 @@ class ViewController: UIViewController {
         // print("SendClicked")
         performSegue(withIdentifier: "goToVC2", sender: nil)
     }
+    
+    
     
     override func viewWillAppear(_ animated: Bool) {
         print("viewWillApear 1")
@@ -45,8 +57,13 @@ class ViewController: UIViewController {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "goToVC2" {
+        
          let nextController: ViewController2 = segue.destination as! ViewController2
          nextController.receivedText = inputField.text ?? "Empty"
+        }   else if segue.identifier == "goToTV" {
+            // anything you want to perform 
+        }
     }
     
     func test(){
@@ -152,7 +169,15 @@ class ViewController: UIViewController {
     func allPossibilities(firstName: String, lastName: String, funOfTeam: String){
         print("Im going to the stadium with \(firstName) \(lastName), fan of \(funOfTeam)")
     }
+    
 }
+
+    extension Int {
+        func squared() -> Int {
+        return self * self
+        }
+    }
+
 
 
 
