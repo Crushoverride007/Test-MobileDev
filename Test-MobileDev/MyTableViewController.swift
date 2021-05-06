@@ -263,7 +263,7 @@ class MyTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return students.count
+        return countries.count
     }
 
     
@@ -275,7 +275,7 @@ class MyTableViewController: UITableViewController {
         cell.textLabel?.text = "Section \(indexPath.section) - Row \(indexPath.row)"
 //        print(indexPath.section)
 //        print(indexPath.row)
-        cell.textLabel?.text = students[indexPath.row]
+        cell.textLabel?.text = countries[indexPath.row]
 
         return cell
     }
